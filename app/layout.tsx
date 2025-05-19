@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
+import Sidebar from '@/components/DiscordSidebar';
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -24,10 +26,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body>
+      <div className="flex">
+      <Sidebar />
+      <main className="flex-1 overflow-y-auto bg-zinc-950 px-6 py-10 text-zinc-100">
         {children}
+      </main>
+    </div>
       </body>
     </html>
   );
