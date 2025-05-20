@@ -7,15 +7,16 @@ import { Menu, X } from 'lucide-react';
 
 const sections = [
   {
-    title: 'Introduction',
+    title: '🔥 Introduccion',
     links: [
-      { label: 'Como comenzar', href: '/docs/what-is-lucide' },
-      { label: 'Set up', href: '/docs/installation' },
-      { label: 'instalaciones', href: '/docs/comparison' },
+      { label: 'Como comenzar', href: '/docs/como-comenzar' },
+      { label: 'Creando una App', href: '/docs/creando-una-app' },
+      { label: 'Entendiendo la App', href: '/docs/entendiendo-la-app' },
+      { label: 'Creando Cuentas de Prueba', href: '/docs/creando-cuentas-de-prueba' },
     ],
   },
   {
-    title: 'Basics',
+    title: '🔥 Checkout Pro',
     links: [
         { label: 'Como comenzar', href: '/docs/what-is-lucide' },
         { label: 'Set up', href: '/docs/installation' },
@@ -23,7 +24,23 @@ const sections = [
     ],
   },
   {
-    title: 'Advanced',
+    title: '🔥 Checkout Bricks',
+    links: [
+        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
+        { label: 'Set up', href: '/docs/installation' },
+        { label: 'instalaciones', href: '/docs/comparison' },
+    ],
+  },
+  {
+    title: '🔥 Checkout Api',
+    links: [
+        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
+        { label: 'Set up', href: '/docs/installation' },
+        { label: 'instalaciones', href: '/docs/comparison' },
+    ],
+  },
+  {
+    title: '🔥 Suscripciones',
     links: [
         { label: 'Como comenzar', href: '/docs/what-is-lucide' },
         { label: 'Set up', href: '/docs/installation' },
@@ -36,7 +53,6 @@ export default function Sidebar() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
 
-  // Cierra drawer al cambiar de ruta
   useEffect(() => setOpen(false), [pathname]);
 
   const sidebarContent = (
@@ -82,13 +98,13 @@ export default function Sidebar() {
       </aside>
 
       {/* ---------- MOBILE HEADER ---------- */}
-<header className="fixed left-0 top-0 z-50 flex h-14 w-full items-center justify-between bg-zinc-900 px-4 text-zinc-100 md:hidden">
-  <button onClick={() => setOpen(true)} aria-label="Open menu">
-    <Menu size={24} />
-  </button>
-  <span className="text-lg font-bold">MP FANS</span>
-  {/* placeholder para equilibrar el flex */}
-  <div className="w-6" />
+      <header className="fixed left-0 top-0 z-50 flex h-14 w-full items-center justify-between bg-zinc-900 px-4 text-zinc-100 md:hidden">
+      <button onClick={() => setOpen(true)} aria-label="Open menu">
+        <Menu size={24} />
+      </button>
+    <span className="text-lg font-bold">MP FANS</span>
+      {/* placeholder para equilibrar el flex */}
+    <div className="w-6" />
 </header>
  
 
