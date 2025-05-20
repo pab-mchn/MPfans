@@ -57,7 +57,9 @@ export default function Sidebar() {
 
   const sidebarContent = (
     <>
-      <h1 className="mb-6 text-2xl font-bold">MP FANS</h1>
+       <Link href="/" className="mb-6 block text-2xl font-bold hover:text-white">
+        MP FANS
+      </Link>
 
       <nav className="space-y-6">
         {sections.map(({ title, links }) => (
