@@ -9,42 +9,24 @@ const sections = [
   {
     title: '🔥 Introduccion',
     links: [
-      { label: 'Como comenzar', href: '/docs/como-comenzar' },
-      { label: 'Creando una App', href: '/docs/creando-una-app' },
-      { label: 'Entendiendo la App', href: '/docs/entendiendo-la-app' },
-      { label: 'Creando Cuentas de Prueba', href: '/docs/creando-cuentas-de-prueba' },
+      { label: 'Que es MP Fans', href: '/' },
+      { label: 'Por que MP Fans', href: '/docs/introduccion' },
     ],
   },
   {
     title: '🔥 Checkout Pro',
     links: [
-        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
-        { label: 'Set up', href: '/docs/installation' },
-        { label: 'instalaciones', href: '/docs/comparison' },
+        { label: 'Que es y como empezar', href: '/docs/checkout-pro/set-up' },
+        { label: 'Integracion con Javascript', href: '/docs/checkout-pro/con_javascript' },
+        { label: 'Integracion con React js', href: '/docs/checkout-pro/con_reactjs' },
+        { label: 'Integracion con Next js', href: '/docs/checkout-pro/con_nextjs' },
     ],
   },
   {
-    title: '🔥 Checkout Bricks',
+    title: '🔥 Mas recursos',
     links: [
-        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
-        { label: 'Set up', href: '/docs/installation' },
-        { label: 'instalaciones', href: '/docs/comparison' },
-    ],
-  },
-  {
-    title: '🔥 Checkout Api',
-    links: [
-        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
-        { label: 'Set up', href: '/docs/installation' },
-        { label: 'instalaciones', href: '/docs/comparison' },
-    ],
-  },
-  {
-    title: '🔥 Suscripciones',
-    links: [
-        { label: 'Como comenzar', href: '/docs/what-is-lucide' },
-        { label: 'Set up', href: '/docs/installation' },
-        { label: 'instalaciones', href: '/docs/comparison' },
+        { label: 'Actualizaciones de la Api', href: '/docs/recursos/actualizaciones' },
+        { label: 'codigos', href: '/docs/comparison' },
     ],
   },
 ];
