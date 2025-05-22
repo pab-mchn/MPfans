@@ -19,6 +19,13 @@ export default function Home() {
           Vamos a ver cómo empezar desde cero, como integrar Mercado Pago con Javascript, React JS y Next JS 
           con checkout Pro (de momento) por que puede que se agreguen a esta guia integraciones como suscripciones, checkout api, checkout Bricks, etc.
         </p>
+
+        <p className="text-lg text-zinc-300 leading-relaxed">
+          Todo el contenido de este proyecto es y seguirá siendo completamente gratuito. Si te interesa apoyar este rincón creado con mucho laburo y dedicación, podés hacerlo con una donación desde <a href="https://ondecode.dev" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">este enlace</a> ❤️ ¡Gracias!
+        </p>
+
+
+
       </section>
 
       <section className="mt-20 space-y-10">
@@ -28,11 +35,10 @@ export default function Home() {
           <li>Explicaciones claras con recursos en codigo y video para desarrolladores de todos los niveles.</li>
           <li>Un rincon en donde dejar tus dudas y encontrar respuestas en comunidad.</li>
           <li>Un lugar con recursos de video, codigo y texto sobre actualizaciones que pueda tener la api.</li>
-          <li>Apartado para resolucion de errores comunes, preguntas frecuentes, etc.</li>
-          <li>Recursos y enlaces útiles.</li>
+          <li>Mas recursos y enlaces utiles que puedan ir surgiendo con el tiempo.</li>
         </ul>
       </section>
-      <NextButton href="/docs/introduccion" label="Siguiente: Por que MP Fans" />
+      <NextButton href="/docs/checkout-pro/set-up" label="Siguiente: Checkout Pro - ¿Que es y como empezar?" />
       <footer className="mt-28 text-center text-sm text-zinc-500">
         Hecho con ❤️ por un simple desarrollador.
       </footer>

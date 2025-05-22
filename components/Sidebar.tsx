@@ -1,5 +1,4 @@
 'use client';
-
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -7,26 +6,27 @@ import { Menu, X } from 'lucide-react';
 
 const sections = [
   {
-    title: '🔥 Introduccion',
+    title: '🌎 Introduccion',
     links: [
       { label: 'Que es MP Fans', href: '/' },
-      { label: 'Por que MP Fans', href: '/docs/introduccion' },
     ],
   },
   {
-    title: '🔥 Checkout Pro',
+    title: '🌎 Checkout Pro',
     links: [
         { label: 'Que es y como empezar', href: '/docs/checkout-pro/set-up' },
         { label: 'Integracion con Javascript', href: '/docs/checkout-pro/con_javascript' },
         { label: 'Integracion con React js', href: '/docs/checkout-pro/con_reactjs' },
         { label: 'Integracion con Next js', href: '/docs/checkout-pro/con_nextjs' },
+        { label: 'Capturando informacion de pagos (webhoocks)', href: '/docs/checkout-pro/webhoocks' },
     ],
   },
   {
-    title: '🔥 Mas recursos',
+    title: '🌎 Mas recursos',
     links: [
         { label: 'Actualizaciones de la Api', href: '/docs/recursos/actualizaciones' },
-        { label: 'codigos', href: '/docs/comparison' },
+        { label: 'Mas de Mercado Pago 🔥', href: '/docs/recursos/mas-de-mp' },
+        { label: 'codigos', href: '/docs/recursos/codigos' },
     ],
   },
 ];

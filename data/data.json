@@ -1,0 +1,12 @@
+[
+    {
+      "title": "JavaScript + Mercado Pago",
+      "youtubeId": "https://www.youtube.com/embed/vEXwN9-tKcs?si=MGn9WNWjvT3ODgmT",
+      "github": "https://github.com/pab-mchn/mercado-pago-javascript-simple-integration"
+    },
+    {
+      "title": "ReactJS + Mercado Pago",
+      "youtubeId": "https://www.youtube.com/embed/-VD-l5BQsuE?si=qEGQebR3piCfJiWT",
+      "github": "https://github.com/pab-mchn/MercadoPago_ReactJs"
+    }
+  ]

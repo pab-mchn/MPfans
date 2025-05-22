@@ -1,3 +1,5 @@
+import NextButton from "@/components/NextButton";
+
 export default function conNextjs() {
     return (
       <div className="max-w-3xl mx-auto p-6">
@@ -5,6 +7,7 @@ export default function conNextjs() {
         <p className="mb-4">
           Muy pronto va s aencontrar un video y mas recursos para integrar mercado pago con nextJS
         </p>
+        <NextButton href="/docs/checkout-pro/webhoocks" label="Siguiente: Checkout Pro - Webhoocks" />
       </div>
     );
   }
