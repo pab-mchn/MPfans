@@ -21,7 +21,7 @@ export default function Home() {
         </p>
 
         <p className="text-lg text-zinc-300 leading-relaxed">
-          Todo el contenido de este proyecto es y seguirá siendo completamente gratuito. Si te interesa apoyar este rincón creado con mucho laburo y dedicación, podés hacerlo con una donación desde <a href="https://ondecode.dev" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">este enlace</a> ❤️ ¡Gracias!
+          Todo el contenido de este proyecto es y seguirá siendo completamente gratuito. Si te sirvió o te resultó útil, podés apoyarlo con una donación desde <a href="https://ondecode.dev" target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">este enlace</a> ❤️ ¡Gracias por estar del otro lado!
         </p>
 
 
