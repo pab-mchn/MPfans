@@ -3,7 +3,7 @@ import NextButton from "@/components/NextButton";
 export default function MasVideos() {
     return (
       <div className="max-w-3xl mx-auto p-6">
-        <h1 className="text-3xl font-bold mb-6">MAS VIDEITOS</h1>
+        <h1 className="text-3xl font-bold mb-6">MAS RECURSOS Y COSAS</h1>
         <p className="mb-4">
           Dejo un video sobre como integrar Mercado Pago con un Modal y otras formas de integracion
         </p>

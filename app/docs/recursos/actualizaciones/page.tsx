@@ -22,6 +22,10 @@ export default function Actualizaciones() {
             }}
           />
         </div>
+        <ul className="mb-4 list-disc pl-5 text-zinc-300 leading-relaxed space-y-1">
+            <li>✅ ACTUALIZACIÓN: si pide un código de verificacion. Probar con los ultimos 6 digitos del USER ID de la cuenta de prueba.</li>
+            <li> ✅ De todas formas el pedir un código de verficacion fue un error temporal de la Api de MP, en teoria ya fue solucionado y no debería volver a pedirte un código. </li>
+          </ul>
         <NextButton href="/docs/recursos/mas-de-mp" label="Siguiente: Mas de Mercado Pago" />
 
       </div>
