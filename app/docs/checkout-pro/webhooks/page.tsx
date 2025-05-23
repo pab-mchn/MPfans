@@ -3,7 +3,7 @@ import NextButton from "@/components/NextButton";
 export default function MasVideos() {
     return (
       <div className="max-w-3xl mx-auto p-6">
-        <h1 className="text-3xl font-bold mb-6">Capturando infromacion de pagos (webhoocks)</h1>
+        <h1 className="text-3xl font-bold mb-6">Capturando infromacion de pagos (webhooks)</h1>
         {/* Contenedor responsive para iframe */}
         <div className="relative pb-[56.25%] h-0 overflow-hidden rounded-lg shadow-lg mb-8">
 

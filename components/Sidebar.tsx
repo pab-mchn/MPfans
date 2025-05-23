@@ -17,7 +17,7 @@ const sections = [
         { label: 'Integracion con Javascript', href: '/docs/checkout-pro/con_javascript' },
         { label: 'Integracion con React js', href: '/docs/checkout-pro/con_reactjs' },
         { label: 'Integracion con Next js', href: '/docs/checkout-pro/con_nextjs' },
-        { label: 'Capturando informacion de pagos (webhoocks)', href: '/docs/checkout-pro/webhoocks' },
+        { label: 'Capturando informacion de pagos (webhooks)', href: '/docs/checkout-pro/webhooks' },
     ],
   },
   {
@@ -25,7 +25,7 @@ const sections = [
     links: [
         { label: 'Actualizaciones de la Api', href: '/docs/recursos/actualizaciones' },
         { label: 'Mas de Mercado Pago 🔥', href: '/docs/recursos/mas-de-mp' },
-        { label: 'codigos', href: '/docs/recursos/codigos' },
+        { label: 'códigos', href: '/docs/recursos/codigos' },
     ],
   },
 ];
