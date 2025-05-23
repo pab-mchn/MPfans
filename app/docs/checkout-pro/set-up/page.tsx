@@ -16,7 +16,7 @@ export default function CheckoutProIntro() {
         </p>
 
         <p className="text-lg text-zinc-300 leading-relaxed">
-  Esta es la opción más recomendable si estás dando tus primeros pasos con la API de Mercado Pago. ¿Por qué? Porque nuestro sitio simplemente se convierte en un lugar donde se recopilan los datos de un producto que queremos vender (lo que Mercado Pago llama una "preferencia"): nombre, precio, cantidad, etc. Toda esa información se le envía a Mercado Pago para que se encargue del pago.
+  Esta es la opción más recomendable si estás dando tus primeros pasos con la API de Mercado Pago. ¿Por qué? Porque nuestro sitio simplemente se convierte en un lugar donde se recopilan los datos de un producto que queremos vender (lo que Mercado Pago llama una &quot;preferencia&quot;): nombre, precio, cantidad, etc. Toda esa información se le envía a Mercado Pago para que se encargue del pago.
 </p>
 
 <p className="text-lg text-zinc-300 leading-relaxed">
@@ -24,7 +24,7 @@ export default function CheckoutProIntro() {
 </p>
 
 <p className="text-lg text-zinc-300 leading-relaxed">
-  Una vez integradas esas credenciales en nuestro código, y cargados los datos del producto, lo siguiente es crear cuentas de prueba (usuarios "fake" de Mercado Pago) para poder testear todo el flujo de pago de forma segura y sin usar dinero real.
+  Una vez integradas esas credenciales en nuestro código, y cargados los datos del producto, lo siguiente es crear cuentas de prueba (usuarios &quot;fake&quot; de Mercado Pago) para poder testear todo el flujo de pago de forma segura y sin usar dinero real.
 </p>
 
 <p className="text-lg text-zinc-300 leading-relaxed">
