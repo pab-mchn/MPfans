@@ -55,7 +55,7 @@ export default function Codes() {
 
         <div className="flex flex-col items-center mt-6">
           <a
-            href="https://ondecode.dev"
+            href="https://cafecito.app/onthecode"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-pink-600 hover:bg-pink-700 transition text-xl font-semibold px-8 py-4 rounded-xl w-full max-w-xs text-center"
