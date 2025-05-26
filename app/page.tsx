@@ -3,7 +3,7 @@ import NextButton from '@/components/NextButton'
 export default function Home() {
   return (
     <main className="min-h-screen px-6 py-20 sm:py-28 max-w-3xl mx-auto text-zinc-100 font-sans">      
-      <section className="text-center sm:text-left space-y-6">
+      <section className=" sm:text-left space-y-6">
 
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
           Bienvenidos a <span className="text-blue-400">MP Fans</span>
