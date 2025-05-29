@@ -3,7 +3,7 @@ import NextButton from '@/components/NextButton'
 export default function Home() {
   return (
     <main className="min-h-screen px-6 py-20 sm:py-28 max-w-3xl mx-auto text-zinc-100 font-sans">      
-      <section className=" sm:text-left space-y-6">
+      <section className="hay  sm:text-left space-y-6">
 
         <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
           Bienvenidos a <span className="text-blue-400">MP Fans</span>
@@ -15,7 +15,14 @@ export default function Home() {
           que hagan posible la integracion de esta Api para desarrolladores de todos los niveles.
         </p>
 
-        <p className="text-base text-zinc-400">
+        <p className="text-lg text-zinc-300 leading-relaxed">
+        Utilizar Mercado Pago puede ser frustrante. Entonces decidí hacer algo útil: crear esta guía con ejemplos reales, videos y explicaciones claras para poder ayudar a otros devs.
+        </p>
+
+        <p className="text-lg text-zinc-300 leading-relaxed">
+        Es una guía real, hecha desde la experiencia de meter mano, equivocarse, pasar mucho timepo intentando, y finalmente hacer que las cosas funcionen. Ojalá te sirva.
+        </p>
+        <p className="text-lg text-zinc-300 leading-relaxed">
           Vamos a ver cómo empezar desde cero, como integrar Mercado Pago con Javascript, React JS y Next JS 
           con checkout Pro (de momento) por que puede que se agreguen a esta guia integraciones como suscripciones, checkout api, checkout Bricks, etc.
         </p>

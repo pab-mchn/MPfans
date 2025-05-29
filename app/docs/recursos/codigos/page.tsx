@@ -54,14 +54,19 @@ export default function Codes() {
         </div>
 
         <div className="flex flex-col items-center mt-6">
-          <a
-            href="https://cafecito.app/onthecode"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-pink-600 hover:bg-pink-700 transition text-xl font-semibold px-8 py-4 rounded-xl w-full max-w-xs text-center"
-          >
-            Donar ❤️
-          </a>
+        <a
+  href="https://cafecito.app/onthecode"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="bg-pink-600 hover:bg-pink-700 transition text-xl font-semibold px-8 py-4 rounded-xl w-full max-w-xs text-center flex items-center justify-center gap-3"
+>
+  <img
+    src="https://cdn.cafecito.app/imgs/cafecito_logo.svg"
+    alt="Cafecito logo"
+    className="w-6 h-6"
+  />
+  Donar
+</a>
           <p className="text-sm text-zinc-300 mt-4 mt-2">
             • Si mi contenido te ayudó, una donación, por pequeña que sea, me ayuda muchísimo a seguir creando contenido gratuito 🙌 Gracias.
           </p>
