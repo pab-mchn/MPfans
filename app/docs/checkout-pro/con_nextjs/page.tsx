@@ -1,5 +1,4 @@
 import NextButton from "@/components/NextButton";
-import Image from 'next/image';
 
 export default function ConNextjs() {
   return (
@@ -112,8 +111,7 @@ export default function ClientWallet() {
       </pre>
 
       <p className="mb-4 text-zinc-300 leading-relaxed">vamos a enternder un poco que es lo que estamos haciendo en este frontend</p>
-
-      <p className="mb-4 text-zinc-300 leading-relaxed"><strong>'use client'</strong>: En la primer linea con 'use client' se convierte el componente en client-side, y eso es clave porque usamos useState para manejar cuándo mostrar el botón de Mercado Pago.</p>
+      <p className="mb-4 text-zinc-300 leading-relaxed"><strong>&apos;use client&apos;</strong>: En la primer linea con &apos;use client&apos; se convierte el componente en client-side, y eso es clave porque usamos useState para manejar cuándo mostrar el botón de Mercado Pago.</p>
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>imports</strong>: Lo siguiente es importar las cosas que necesitamos de mercado pago como el initMercadoPago, Wallet y tambien el useState de React.</p>
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>Inicialización del SDK</strong>: Llamamos a initMercadoPago con nuestra API_KEY(que hay que conseguirla desde el panel de mercadoPago) y la configuración regional. Esto prepara todo para que el SDK funcione correctamente en nuestra app.</p>
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>preferenceId</strong>: Creamos un estado con useState para guardar el id de la preferencia. Cuando enviamos la información de nuestro producto al backend, Mercado Pago toma esos datos y genera una preferencia de pago. A cambio, nos devuelve un id único que representa esa preferencia.
@@ -193,12 +191,7 @@ export async function POST(request: NextRequest) {
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>Armado de la preferencia: </strong>
         Con esos datos, creamos un objeto llamado preferenceData. Acá le pasamos todo lo que necesita Mercado Pago para armar el checkout:
 
-        Los items (producto, precio, cantidad, moneda).
-
-        Las back_urls, que son las URLs adonde redirigir al usuario después del pago (sea exitoso, fallido o pendiente).
-
-        Y auto_return: 'approved', que hace que el usuario vuelva automáticamente cuando el pago se aprueba.
-      </p>
+        Los items (producto, precio, cantidad, moneda). Las back_urls, que son las URLs adonde redirigir al usuario después del pago (sea exitoso, fallido o pendiente). Y auto_return: &apos;approved&apos;, que hace que el usuario vuelva automáticamente cuando el pago se aprueba.</p>
 
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>Creación de la preferencia: </strong>
         Con new Preference(client).create(...) mandamos los datos a Mercado Pago.
@@ -212,7 +205,7 @@ export async function POST(request: NextRequest) {
       <p className="mb-4 text-zinc-300 leading-relaxed"><strong>Manejo de errores: </strong>
         Si algo sale mal, lo mostramos en consola y devolvemos una respuesta con error. Así evitamos que la app se rompa sin explicación.
 
-        <p>Con esto ya deberíamos tener lista la pasarela de pago con Checkout Pro, usando los datos de nuestro producto. Al hacer clic en el botón "Pagar", se genera la preferencia y se renderiza automáticamente el botón de Mercado Pago.</p>
+        <p>Con esto ya deberíamos tener lista la pasarela de pago con Checkout Pro, usando los datos de nuestro producto. Al hacer clic en el botón Pagar, se genera la preferencia y se renderiza automáticamente el botón de Mercado Pago.</p>
 
         Al presionar ese botón, nos lleva directo al flujo de pago, donde el usuario va a ver el producto con su precio, cantidad y podrá completar la compra.
       </p>
