@@ -24,7 +24,6 @@ const sections = [
     title: '🌎 Mas recursos',
     links: [
         { label: 'Actualizaciones de la Api', href: '/docs/recursos/actualizaciones' },
-        { label: 'Mas de Mercado Pago 🔥', href: '/docs/recursos/mas-de-mp' },
         { label: 'códigos', href: '/docs/recursos/codigos' },
     ],
   },

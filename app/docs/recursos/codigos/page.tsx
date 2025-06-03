@@ -68,7 +68,7 @@ export default function Codes() {
   Donar
 </a>
           <p className="text-sm text-zinc-300 mt-4 mt-2">
-            • Si mi contenido te ayudó, una donación, por pequeña que sea, me ayuda muchísimo a seguir creando contenido gratuito 🙌 Gracias.
+            Si mi contenido te ayudó, una donación, por pequeña que sea, me ayuda muchísimo a seguir creando contenido gratuito 🙌 Gracias.
           </p>
         </div>
 
@@ -79,9 +79,9 @@ export default function Codes() {
             rel="noopener noreferrer"
             className="text-blue-400 font-medium underline"
           >
-            • Ver código en GitHub
+            Ver código en GitHub
           </a>
-          <p className="text-sm text-zinc-300 mt-2">• Dejame una estrella ⭐️</p>
+          <p className="text-sm text-zinc-300 mt-2">Dejame una estrella ⭐️</p>
         </div>
       </div>
     </div>

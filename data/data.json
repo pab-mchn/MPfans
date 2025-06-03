@@ -8,5 +8,9 @@
       "title": "ReactJS + Mercado Pago",
       "youtubeId": "https://www.youtube.com/embed/-VD-l5BQsuE?si=qEGQebR3piCfJiWT",
       "github": "https://github.com/pab-mchn/MercadoPago_ReactJs"
+    },
+    {
+      "title": "NextJS + Mercado Pago",
+      "github": "https://github.com/pab-mchn/Mercado-Pago-Next.js"
     }
   ]
