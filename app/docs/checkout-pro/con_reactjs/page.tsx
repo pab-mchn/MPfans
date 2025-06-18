@@ -65,7 +65,7 @@ export default function conReactjs() {
             allowFullScreen
             style={{
               position: 'absolute',
-              top: 20,
+              top: 0,
               left: 0,
               width: '100%',
               height: '100%',

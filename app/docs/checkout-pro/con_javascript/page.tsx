@@ -13,7 +13,7 @@ export default function conJavascript() {
             allowFullScreen
             style={{
               position: 'absolute',
-              top: 20,
+              top: 0,
               left: 0,
               width: '100%',
               height: '100%',
@@ -38,7 +38,7 @@ export default function conJavascript() {
             allowFullScreen
             style={{
               position: 'absolute',
-              top: 20,
+              top: 0,
               left: 0,
               width: '100%',
               height: '100%',
@@ -64,7 +64,7 @@ export default function conJavascript() {
             allowFullScreen
             style={{
               position: 'absolute',
-              top: 20,
+              top: 0,
               left: 0,
               width: '100%',
               height: '100%',
